@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 25%;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+}
