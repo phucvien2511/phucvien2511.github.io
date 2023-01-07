@@ -9,8 +9,8 @@
         "defense": 90,
         "sp_attack": 154,
         "sp_defense": 90,
-        "speed": 130
-
+        "speed": 130,
+        "img": "https://img.pokemondb.net/artwork/mewtwo.jpg"
 
     },
     {
@@ -23,7 +23,8 @@
         "defense": 130,
         "sp_attack": 90,
         "sp_defense": 154,
-        "speed": 110
+        "speed": 110,
+        "img": "https://img.pokemondb.net/artwork/lugia.jpg"
     },
     {
         "name": "Ho-Oh",
@@ -35,7 +36,8 @@
         "defense": 90,
         "sp_attack": 110,
         "sp_defense": 154,
-        "speed": 90
+        "speed": 90,
+        "img": "https://img.pokemondb.net/artwork/ho-oh.jpg"
     },
     {
         "name": "Kyogre",
@@ -47,7 +49,8 @@
         "defense": 90,
         "sp_attack": 150,
         "sp_defense": 140,
-        "speed": 90
+        "speed": 90,
+        "img": "https://img.pokemondb.net/artwork/alt/kyogre-legendary.jpg"
     },
     {
         "name": "Groudon",
@@ -59,7 +62,8 @@
         "defense": 140,
         "sp_attack": 100,
         "sp_defense": 90,
-        "speed": 90
+        "speed": 90,
+        "img": "https://img.pokemondb.net/artwork/alt/groudon-legendary.jpg"
     },
     {
         "name": "Dialga",
@@ -71,7 +75,8 @@
         "defense": 120,
         "sp_attack": 150,
         "sp_defense": 100,
-        "speed": 90
+        "speed": 90,
+        "img": "https://img.pokemondb.net/artwork/dialga.jpg"
     },
     {
         "name": "Palkia",
@@ -83,7 +88,8 @@
         "defense": 100,
         "sp_attack": 150,
         "sp_defense": 120,
-        "speed": 100
+        "speed": 100,
+        "img": "https://img.pokemondb.net/artwork/palkia.jpg"
     },
     {
         "name": "Giratina",
@@ -95,7 +101,8 @@
         "defense": 120,
         "sp_attack": 100,
         "sp_defense": 120,
-        "speed": 90
+        "speed": 90,
+        "img": "https://img.pokemondb.net/artwork/giratina-altered.jpg"
     },
     {
         "name": "Rayquaza",
@@ -107,7 +114,8 @@
         "defense": 90,
         "sp_attack": 150,
         "sp_defense": 90,
-        "speed": 95
+        "speed": 95,
+        "img": "https://img.pokemondb.net/artwork/rayquaza.jpg"
     },
     {
         "name": "Reshiram",
@@ -119,7 +127,8 @@
         "defense": 100,
         "sp_attack": 150,
         "sp_defense": 120,
-        "speed": 90
+        "speed": 90,
+        "img": "https://img.pokemondb.net/artwork/reshiram.jpg"
     },
     {
         "name": "Zekrom",
@@ -131,7 +140,8 @@
         "defense": 120,
         "sp_attack": 120,
         "sp_defense": 100,
-        "speed": 90
+        "speed": 90,
+        "img": "https://img.pokemondb.net/artwork/zekrom.jpg"
     },
     {
         "name": "Kyurem",
@@ -143,7 +153,8 @@
         "defense": 90,
         "sp_attack": 130,
         "sp_defense": 90,
-        "speed": 95
+        "speed": 95,
+        "img": "https://img.pokemondb.net/artwork/kyurem.jpg"
     },
     {
         "name": "Xerneas",
@@ -155,7 +166,8 @@
         "defense": 95,
         "sp_attack": 131,
         "sp_defense": 98,
-        "speed": 99
+        "speed": 99,
+        "img": "https://img.pokemondb.net/artwork/xerneas.jpg"
     },
     {
         "name": "Yveltal",
@@ -167,7 +179,8 @@
         "defense": 95,
         "sp_attack": 131,
         "sp_defense": 98,
-        "speed": 99
+        "speed": 99,
+        "img": "https://img.pokemondb.net/artwork/yveltal.jpg"
     },
     {
         "name": "Zygarde",
@@ -179,7 +192,8 @@
         "defense": 121,
         "sp_attack": 81,
         "sp_defense": 95,
-        "speed": 95
+        "speed": 95,
+        "img": "https://img.pokemondb.net/artwork/zygarde.jpg"
     },
     {
         "name": "Solgaleo",
@@ -191,7 +205,8 @@
         "defense": 107,
         "sp_attack": 113,
         "sp_defense": 89,
-        "speed": 97
+        "speed": 97,
+        "img": "https://img.pokemondb.net/artwork/solgaleo.jpg"
     },
     {
         "name": "Lunala",
@@ -203,7 +218,8 @@
         "defense": 89,
         "sp_attack": 137,
         "sp_defense": 107,
-        "speed": 97
+        "speed": 97,
+        "img": "https://img.pokemondb.net/artwork/lunala.jpg"
     },
     {
         "name": "Necrozma",
@@ -215,7 +231,8 @@
         "defense": 101,
         "sp_attack": 127,
         "sp_defense": 89,
-        "speed": 79
+        "speed": 79,
+        "img": "https://img.pokemondb.net/artwork/necrozma.jpg"
     },
     {
         "name": "Zacian",
@@ -227,7 +244,8 @@
         "defense": 115,
         "sp_attack": 80,
         "sp_defense": 115,
-        "speed": 138
+        "speed": 138,
+        "img": "https://img.pokemondb.net/artwork/zacian-hero.jpg"
     },
     {
         "name": "Zamazenta",
@@ -239,7 +257,8 @@
         "defense": 115,
         "sp_attack": 80,
         "sp_defense": 115,
-        "speed": 138
+        "speed": 138,
+        "img": "https://img.pokemondb.net/artwork/zamazenta-hero.jpg"
     },
     {
         "name": "Eternatus",
@@ -251,7 +270,8 @@
         "defense": 95,
         "sp_attack": 145,
         "sp_defense": 95,
-        "speed": 130
+        "speed": 130,
+        "img": "https://img.pokemondb.net/artwork/eternatus.jpg"
     },
     {
         "name": "Arceus",
@@ -263,6 +283,20 @@
         "defense": 120,
         "sp_attack": 120,
         "sp_defense": 120,
-        "speed": 120
+        "speed": 120,
+        "img": "https://img.pokemondb.net/artwork/arceus.jpg"
+    },
+    {
+        "name": "Regigigas",
+        "id": 23,
+        "type_1": "Normal",
+        "type_2": "None",
+        "hp": 110,
+        "attack": 160,
+        "defense": 110,
+        "sp_attack": 80,
+        "sp_defense": 110,
+        "speed": 100,
+        "img": "https://img.pokemondb.net/artwork/regigigas.jpg"
     }
 ]
