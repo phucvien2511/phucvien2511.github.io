@@ -1,0 +1,66 @@
+[
+    //Giga impact, hyper beam
+    
+    {
+        "move": "Giga Impact",
+        "type": "Normal",
+        "category": "Physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "boost": [],
+        "effect": [
+            {
+                "effect": "Recharge",
+                "chance": 100,
+                "self": true
+            }
+        ]
+    },
+    {
+        "move": "Hyper Beam",
+        "type": "Normal",
+        "category": "Special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "boost": [],
+        "effect": [
+            {
+                "effect": "Recharge",
+                "chance": 100,
+                "self": true
+            }
+        ]
+    },
+    {
+        "move": "Psybeam",
+        "type": "Psychic",
+        "category": "Special",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "boost": [],
+        "effect": [
+            {
+                "effect": "Confuse",
+                "chance": 10,
+                "self": false
+            }
+        ]
+    },
+    {
+        "move": "Outrage",
+        "type": "Dragon",
+        "category": "Physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "boost": [],
+        "effect": []
+    }
+]

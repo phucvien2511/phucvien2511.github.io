@@ -1,7 +1,6 @@
 [
     {
         "name": "Mewtwo",
-        "id": 1,
         "type_1": "Psychic",
         "type_2": "None",
         "hp": 106,
@@ -15,7 +14,6 @@
     },
     {
         "name": "Lugia",
-        "id": 2,
         "type_1": "Psychic",
         "type_2": "Flying",
         "hp": 106,
@@ -28,7 +26,6 @@
     },
     {
         "name": "Ho-Oh",
-        "id": 3,
         "type_1": "Fire",
         "type_2": "Flying",
         "hp": 106,
@@ -40,8 +37,91 @@
         "img": "https://img.pokemondb.net/artwork/ho-oh.jpg"
     },
     {
+        "name": "Regigigas",
+        "type_1": "Normal",
+        "type_2": "None",
+        "hp": 110,
+        "attack": 160,
+        "defense": 110,
+        "sp_attack": 80,
+        "sp_defense": 110,
+        "speed": 100,
+        "img": "https://img.pokemondb.net/artwork/regigigas.jpg"
+    },
+    {
+        "name": "Regice",
+        "type_1": "Ice",
+        "type_2": "None",
+        "hp": 80,
+        "attack": 50,
+        "defense": 100,
+        "sp_attack": 100,
+        "sp_defense": 200,
+        "speed": 50,
+        "img": "https://img.pokemondb.net/artwork/regice.jpg"
+    },
+    {
+        "name": "Regirock",
+        "type_1": "Rock",
+        "type_2": "None",
+        "hp": 80,
+        "attack": 100,
+        "defense": 200,
+        "sp_attack": 50,
+        "sp_defense": 100,
+        "speed": 50,
+        "img": "https://img.pokemondb.net/artwork/regirock.jpg"
+    },
+    {
+        "name": "Registeel",
+        "type_1": "Steel",
+        "type_2": "None",
+        "hp": 80,
+        "attack": 75,
+        "defense": 150,
+        "sp_attack": 75,
+        "sp_defense": 150,
+        "speed": 50,
+        "img": "https://img.pokemondb.net/artwork/registeel.jpg"
+    },
+    {
+        "name": "Latias",
+        "type_1": "Dragon",
+        "type_2": "Psychic",
+        "hp": 80,
+        "attack": 80,
+        "defense": 90,
+        "sp_attack": 110,
+        "sp_defense": 130,
+        "speed": 110,
+        "img": "https://img.pokemondb.net/artwork/latias.jpg"
+    },
+    {
+        "name": "Latios",
+        "type_1": "Dragon",
+        "type_2": "Psychic",
+        "hp": 80,
+        "attack": 90,
+        "defense": 80,
+        "sp_attack": 130,
+        "sp_defense": 110,
+        "speed": 110,
+        "img": "https://img.pokemondb.net/artwork/latios.jpg"
+    },
+    {
+        "name": "Jirachi",
+        "type_1": "Steel",
+        "type_2": "Psychic",
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "sp_attack": 100,
+        "sp_defense": 100,
+        "speed": 100,
+        "img": "https://img.pokemondb.net/artwork/jirachi.jpg"
+    },
+    {
         "name": "Kyogre",
-        "id": 4,
         "type_1": "Water",
         "type_2": "None",
         "hp": 100,
@@ -54,7 +134,6 @@
     },
     {
         "name": "Groudon",
-        "id": 5,
         "type_1": "Ground",
         "type_2": "None",
         "hp": 100,
@@ -67,7 +146,6 @@
     },
     {
         "name": "Dialga",
-        "id": 6,
         "type_1": "Steel",
         "type_2": "Dragon",
         "hp": 100,
@@ -80,7 +158,6 @@
     },
     {
         "name": "Palkia",
-        "id": 7,
         "type_1": "Water",
         "type_2": "Dragon",
         "hp": 90,
@@ -93,7 +170,6 @@
     },
     {
         "name": "Giratina",
-        "id": 8,
         "type_1": "Ghost",
         "type_2": "Dragon",
         "hp": 150,
@@ -106,7 +182,6 @@
     },
     {
         "name": "Rayquaza",
-        "id": 9,
         "type_1": "Dragon",
         "type_2": "Flying",
         "hp": 105,
@@ -119,7 +194,6 @@
     },
     {
         "name": "Reshiram",
-        "id": 10,
         "type_1": "Dragon",
         "type_2": "Fire",
         "hp": 100,
@@ -132,7 +206,6 @@
     },
     {
         "name": "Zekrom",
-        "id": 11,
         "type_1": "Dragon",
         "type_2": "Electric",
         "hp": 100,
@@ -145,7 +218,6 @@
     },
     {
         "name": "Kyurem",
-        "id": 12,
         "type_1": "Dragon",
         "type_2": "Ice",
         "hp": 125,
@@ -158,7 +230,6 @@
     },
     {
         "name": "Xerneas",
-        "id": 13,
         "type_1": "Fairy",
         "type_2": "None",
         "hp": 126,
@@ -171,7 +242,6 @@
     },
     {
         "name": "Yveltal",
-        "id": 14,
         "type_1": "Dark",
         "type_2": "Flying",
         "hp": 126,
@@ -184,7 +254,6 @@
     },
     {
         "name": "Zygarde",
-        "id": 15,
         "type_1": "Dragon",
         "type_2": "Ground",
         "hp": 108,
@@ -197,7 +266,6 @@
     },
     {
         "name": "Solgaleo",
-        "id": 16,
         "type_1": "Psychic",
         "type_2": "Steel",
         "hp": 137,
@@ -210,7 +278,6 @@
     },
     {
         "name": "Lunala",
-        "id": 17,
         "type_1": "Psychic",
         "type_2": "Ghost",
         "hp": 137,
@@ -223,7 +290,6 @@
     },
     {
         "name": "Necrozma",
-        "id": 18,
         "type_1": "Psychic",
         "type_2": "None",
         "hp": 97,
@@ -236,7 +302,6 @@
     },
     {
         "name": "Zacian",
-        "id": 19,
         "type_1": "Fairy",
         "type_2": "None",
         "hp": 92,
@@ -249,7 +314,6 @@
     },
     {
         "name": "Zamazenta",
-        "id": 20,
         "type_1": "Fighting",
         "type_2": "None",
         "hp": 92,
@@ -262,7 +326,6 @@
     },
     {
         "name": "Eternatus",
-        "id": 21,
         "type_1": "Poison",
         "type_2": "Dragon",
         "hp": 140,
@@ -275,7 +338,6 @@
     },
     {
         "name": "Arceus",
-        "id": 22,
         "type_1": "Normal",
         "type_2": "None",
         "hp": 120,
@@ -285,18 +347,6 @@
         "sp_defense": 120,
         "speed": 120,
         "img": "https://img.pokemondb.net/artwork/arceus.jpg"
-    },
-    {
-        "name": "Regigigas",
-        "id": 23,
-        "type_1": "Normal",
-        "type_2": "None",
-        "hp": 110,
-        "attack": 160,
-        "defense": 110,
-        "sp_attack": 80,
-        "sp_defense": 110,
-        "speed": 100,
-        "img": "https://img.pokemondb.net/artwork/regigigas.jpg"
     }
+
 ]

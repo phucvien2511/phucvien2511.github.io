@@ -1,13 +1,12 @@
-//Load data from JSON to pokedex variable
+//Load data from JSON to pokedex and moves variable
 import pokedex from './pokedex.json' assert { type: "json" };
-
+import moves from './moves.json' assert { type: "json" };
 //Function to display pokedex
 window.onload = function () {
     const displayPokemon = (pokemon) => {
         const pokemonHTML = pokemon.map((pokemon) => {
             return `
             <div class="col">
-            
                 <div class="card">
                     <div class="card-img"><img src="${pokemon.img}" class="card-img-top" alt="${pokemon.name}"></div>
                         <div class="card-body">
@@ -103,41 +102,40 @@ else {
     document.getElementById('defensebar').style.backgroundColor = "blue";
 }
 document.getElementById('spattackbar').style.width = `${pokedex[index].sp_attack*1.5}px`;
-if (pokedex[index].spattack < 50) {
+if (pokedex[index].sp_attack < 50) {
     document.getElementById('spattackbar').style.backgroundColor = "red";
 }
-else if (pokedex[index].spattack < 85) {
+else if (pokedex[index].sp_attack < 85) {
     document.getElementById('spattackbar').style.backgroundColor = "orange";
 }
 
-else if (pokedex[index].spattack < 125) {
+else if (pokedex[index].sp_attack < 125) {
     document.getElementById('spattackbar').style.backgroundColor = "greenyellow";
 }
 else {
     document.getElementById('spattackbar').style.backgroundColor = "blue";
 }
 document.getElementById('spdefensebar').style.width = `${pokedex[index].sp_defense*1.5}px`;
-if (pokedex[index].spdefense < 50) {
+if (pokedex[index].sp_defense < 50) {
     document.getElementById('spdefensebar').style.backgroundColor = "red";
 }
-else if (pokedex[index].spdefense < 85) {
+else if (pokedex[index].sp_defense < 85) {
     document.getElementById('spdefensebar').style.backgroundColor = "orange";
 }
 
-else if (pokedex[index].spdefense < 125) {
+else if (pokedex[index].sp_defense < 125) {
     document.getElementById('spdefensebar').style.backgroundColor = "greenyellow";
 }
 else {
     document.getElementById('spdefensebar').style.backgroundColor = "blue";
 }
 document.getElementById('speedbar').style.width = `${pokedex[index].speed*1.5}px`;
-if (pokedex[index].speed < 50) {
+if (pokedex[index].speed < 40) {
     document.getElementById('speedbar').style.backgroundColor = "red";
 }
 else if (pokedex[index].speed < 85) {
     document.getElementById('speedbar').style.backgroundColor = "orange";
 }
-
 else if (pokedex[index].speed < 125) {
     document.getElementById('speedbar').style.backgroundColor = "greenyellow";
 }
