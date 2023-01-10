@@ -1,9 +1,6 @@
 //Load data from JSON to pokedex and moves variable
 import pokedex from './pokedex.json' assert { type: "json" };
 import moves from './moves.json' assert { type: "json" };
-for (let i = 0; i < pokedex.length; i++) {
-    pokedex[i].img = pokedex[i].img.toJSON().default;
-}
 //Function to display pokedex
 window.onload = function () {
     const displayPokemon = (pokemon) => {
