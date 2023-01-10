@@ -1,5 +1,18 @@
 [
     {
+        "name": "Tester",
+        "type_1": "Dark",
+        "type_2": "Fighting",
+        "hp": 200,
+        "attack": 120,
+        "defense": 65,
+        "sp_attack": 10,
+        "sp_defense": 200,
+        "speed": 30,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Unknown_person.jpg/925px-Unknown_person.jpg",
+        "moveset": ["Last Resort","V-create","Hydro Cannon","Fusion Flare"]
+    },
+    {
         "name": "Mewtwo",
         "type_1": "Psychic",
         "type_2": "None",
@@ -9,8 +22,8 @@
         "sp_attack": 154,
         "sp_defense": 90,
         "speed": 130,
-        "img": "https://img.pokemondb.net/artwork/mewtwo.jpg"
-
+        "img": "https://img.pokemondb.net/artwork/mewtwo.jpg",
+        "moveset": ["Psystrike","Aura Sphere","Ice Beam","Shadow Ball"] 
     },
     {
         "name": "Lugia",
@@ -22,7 +35,8 @@
         "sp_attack": 90,
         "sp_defense": 154,
         "speed": 110,
-        "img": "https://img.pokemondb.net/artwork/lugia.jpg"
+        "img": "https://img.pokemondb.net/artwork/lugia.jpg",
+        "moveset": ["Psychic","Aeroblast","Ice Beam","Shadow Ball"] 
     },
     {
         "name": "Ho-Oh",
@@ -34,7 +48,8 @@
         "sp_attack": 110,
         "sp_defense": 154,
         "speed": 90,
-        "img": "https://img.pokemondb.net/artwork/ho-oh.jpg"
+        "img": "https://img.pokemondb.net/artwork/ho-oh.jpg",
+        "moveset": ["Sacred Fire", "Brave Bird", "Earthquake", "Rock Slide"] 
     },
     {
         "name": "Regigigas",
@@ -130,7 +145,8 @@
         "sp_attack": 150,
         "sp_defense": 140,
         "speed": 90,
-        "img": "https://img.pokemondb.net/artwork/alt/kyogre-legendary.jpg"
+        "img": "https://img.pokemondb.net/artwork/alt/kyogre-legendary.jpg",
+        "moveset": ["Water Spout", "Double-Edge", "Thunder", "Ice Beam"]
     },
     {
         "name": "Groudon",
@@ -142,7 +158,8 @@
         "sp_attack": 100,
         "sp_defense": 90,
         "speed": 90,
-        "img": "https://img.pokemondb.net/artwork/alt/groudon-legendary.jpg"
+        "img": "https://img.pokemondb.net/artwork/alt/groudon-legendary.jpg",
+        "moveset": ["Earthquake", "Fire Blast", "Eruption", "Ice Beam"]
     },
     {
         "name": "Dialga",

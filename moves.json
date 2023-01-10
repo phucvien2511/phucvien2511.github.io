@@ -1,15 +1,12 @@
 [
-    //Giga impact, hyper beam
-    
     {
-        "move": "Giga Impact",
+        "name": "Giga Impact",
         "type": "Normal",
         "category": "Physical",
         "power": 150,
         "accuracy": 90,
         "pp": 5,
         "priority": 0,
-        "boost": [],
         "effect": [
             {
                 "effect": "Recharge",
@@ -19,14 +16,13 @@
         ]
     },
     {
-        "move": "Hyper Beam",
+        "name": "Hyper Beam",
         "type": "Normal",
         "category": "Special",
         "power": 150,
         "accuracy": 90,
         "pp": 5,
         "priority": 0,
-        "boost": [],
         "effect": [
             {
                 "effect": "Recharge",
@@ -36,31 +32,399 @@
         ]
     },
     {
-        "move": "Psybeam",
-        "type": "Psychic",
-        "category": "Special",
-        "power": 65,
+        "name": "Last Resort",
+        "type": "Normal",
+        "category": "Physical",
+        "power": 140,
         "accuracy": 100,
-        "pp": 20,
+        "pp": 5,
         "priority": 0,
-        "boost": [],
         "effect": [
             {
-                "effect": "Confuse",
+                "effect": "Recharge",
+                "chance": 100,
+                "self": true
+            }
+        ]
+    },
+    {
+        "name": "Skull Bash",
+        "type": "Normal",
+        "category": "Physical",
+        "power": 130,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "Recharge",
+                "chance": 100,
+                "self": true
+            }
+        ]
+    },
+    {
+        "name": "Techno Blast",
+        "type": "Normal",
+        "category": "Special",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "Recharge",
+                "chance": 100,
+                "self": true
+            }
+        ]
+    },
+    {
+        "name": "Mega Kick",
+        "type": "Normal",
+        "category": "Physical",
+        "power": 120,
+        "accuracy": 75,
+        "pp": 5,
+        "priority": 0,
+        "effect": []
+    },
+    {
+        "name": "Judgment-Normal",
+        "type": "Normal",
+        "category": "Special",
+        "power": 100,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "effect": []
+    },
+    {
+        "name": "Uproar",
+        "type": "Normal",
+        "category": "Special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "effect": []
+    },
+    {
+        "name": "Extreme Speed",
+        "type": "Normal",
+        "category": "Physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 2,
+        "effect": []
+    },
+    {
+        "name": "Razor Wind",
+        "type": "Normal",
+        "category": "Special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "Charge",
+                "chance": 100,
+                "self": true
+            },
+            {
+                "effect": "HighCritRatio",
+                "chance": 100,
+                "self": true
+            }
+        ]
+    },
+    {
+        "name": "Double-Edge",
+        "type": "Normal",
+        "category": "Physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "Recoil",
+                "value": 33,
+                "chance": 100,
+                "self": true
+            }
+        ]
+    },
+    {
+        "name": "V-create",
+        "type": "Fire",
+        "category": "Physical",
+        "power": 180,
+        "accuracy": 95,
+        "pp": 5,
+        "priority": 0, 
+        "effect": [
+            {
+                "effect": "StatChange",
+                "chance": 100,
+                "stats": ["DEF", "SPD", "SPE"],
+                "stages": -1,
+                "self": true
+            }
+        ]
+    },
+    {
+        "name": "Blast Burn",
+        "type": "Fire",
+        "category": "Special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "Recharge",
+                "chance": 100,
+                "self": true
+            }
+        ]
+    },
+    {
+        "name": "Eruption",
+        "type": "Fire",
+        "category": "Special",
+        "power": 150,
+        "accuracy": 100,
+        "pp": 3,
+        "priority": 0,
+        "effect": []
+    },
+    {
+        "name": "Judgment-Fire",
+        "type": "Fire",
+        "category": "Special",
+        "power": 100,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "effect": []
+    },
+    {
+        "name": "Overheat",
+        "type": "Fire",
+        "category": "Special",
+        "power": 130,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "StatChange",
+                "chance": 100,
+                "stats": ["SPA"],
+                "stages": -2,
+                "self": true
+            }
+        ]
+    },
+    {
+        "name": "Flare Blitz",
+        "type": "Fire",
+        "category": "Physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "Recoil",
+                "value": 33,
+                "chance": 100,
+                "self": true
+            },
+            {
+                "effect": "Burn",
                 "chance": 10,
                 "self": false
             }
         ]
     },
     {
-        "move": "Outrage",
-        "type": "Dragon",
+        "name": "Sacred Fire",
+        "type": "Fire",
         "category": "Physical",
-        "power": 120,
+        "power": 100,
+        "accuracy": 95,
+        "pp": 5,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "Burn",
+                "chance": 50,
+                "self": false
+            }
+        ]
+    },
+    {
+        "name": "Fusion Flare",
+        "type": "Fire",
+        "category": "Special",
+        "power": 100,
         "accuracy": 100,
         "pp": 5,
         "priority": 0,
-        "boost": [],
         "effect": []
+    },
+    {
+        "name": "Flamethrower",
+        "type": "Fire",
+        "category": "Special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "Burn",
+                "chance": 10,
+                "self": false
+            }
+        ]
+    },
+    {
+        "name": "Fire Punch",
+        "type": "Fire",
+        "category": "Physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "Burn",
+                "chance": 10,
+                "self": false
+            }
+        ]
+    },
+    {
+        "name": "Hydro Cannon",
+        "type": "Water",
+        "category": "Special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "Recharge",
+                "chance": 100,
+                "self": true
+            }
+        ]
+    },
+    {
+        "name": "Water Spout",
+        "type": "Water",
+        "category": "Special",
+        "power": 150,
+        "accuracy": 100,
+        "pp": 3,
+        "priority": 0,
+        "effect": []
+    },
+    {
+        "name": "Hydro Pump",
+        "type": "Water",
+        "category": "Special",
+        "power": 110,
+        "accuracy": 80,
+        "pp": 10,
+        "priority": 0,
+        "effect": []
+    },
+    {
+        "name": "Crabhammer",
+        "type": "Water",
+        "category": "Physical",
+        "power": 100,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "HighCritRatio",
+                "chance": 100,
+                "self": true
+            }
+        ]
+    },
+    {
+        "name": "Aqua Tail",
+        "type": "Water",
+        "category": "Physical",
+        "power": 90,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "effect": []
+    },
+    {
+        "name": "Bouncy Bubble",
+        "type": "Water",
+        "category": "Special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "Heal",
+                "value": 50,
+                "chance": 100,
+                "self": true
+            }
+        ]
+    },
+    {
+        "name": "Surf",
+        "type": "Water",
+        "category": "Special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "effect": []
+    },
+    {
+        "name": "Liquidation",
+        "type": "Water",
+        "category": "Physical",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "effect": [
+            {
+                "effect": "StatChange",
+                "chance": 20,
+                "stats": ["DEF"],
+                "stages": -1,
+                "self": false
+            }
+        ]
     }
+
+
+
+
+
+
+
+
+    
+
+    
 ]

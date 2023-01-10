@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
+    box-sizing: border-box;
 }
 
 .menu-container {
@@ -30,9 +31,13 @@
     height: 50px;
     border: 2px solid black;
 }
+#pokedex {
+    margin: 0 auto;
+}
 #pokedex > * {
     border: 2px solid black;
     margin: 5px;
+
 }
 .card {
     border: 0;
@@ -40,7 +45,7 @@
     flex-direction: column;
 }
 .card-img {
-    margin: 10px;
+    margin: 10px auto;
     width: 100%;
     height: 300px;
     display: flex;
@@ -106,4 +111,40 @@
     height: 20px;
     border: 0.25px solid gray;
     border-radius: 7px;
+}
+#pokemonImage {
+    width: 50%;
+}
+.name-moveset {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#moveset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#moveset > * {
+    display: flex;
+    flex-direction: row;
+    width:80%;
+    height:65%;
+    border-radius: calc(50px * 0.65 * 0.5);
+    margin: 5px;
+    background-color: black;
+}
+#move_1-type, #move_2-type, #move_3-type, #move_4-type {
+    width: calc(50px * 0.65);
+    height: calc(50px * 0.65);
+}
+
+#move_1-name, #move_2-name, #move_3-name, #move_4-name {
+    margin: auto auto auto 10px;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    color: white;
 }
